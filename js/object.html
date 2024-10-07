@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          var a = {
+                fname: "yahoo",
+                lname: "baba",
+                age: 24,
+                email: 'hello@gmail.com"',
+                favMovies: ['dhoom', 'sholay', 'hum'],
+                living: {
+                    'city': 'karnataka',
+                    'country': 'india'
+                },
+                salary: function () {
+                    return 25000;
+                },
+                fullname: function () {
+                    return this.fname + " " + this.lname;
+                }
+            }
+
+            console.log(a);
+            document.write(a.living.city);
+    </script>
+</body>
+</html>
